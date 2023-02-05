@@ -1,24 +1,21 @@
+### Description
 React Hooks
-In today's exercises we're going to apply the knowledge about React hooks to the EpiBooks app.
+
+Knowledge about React hooks to the EpiBooks app.
 
 The goal is to convert each class component into a component
 a function and use hooks to replicate functionality present in classes with corresponding appropriate hooks.
 
-Resume the EpiBooks project.
-If your project is not usable (but it should be at this point)
-for now you can use this: epibooks-d4
+Suggestions:
+- Use `useState()` and `useEffect()` to replicate the functionality of a Class Component.
+- Remember that `useEffect()` can be used as both `componentDidMount` and `componentDidUpdate`,
+  based on what you will put in the dependencies array.
+- Try to keep values of input fields in `AddComment` component in a single object,
+  using a single `useState()` hook for the entire form.
 
-Suggestions
-      - Use useState() and useEffect() to replicate the functionality of a Class Component.
-      - Remember that useEffect() can be used as both componentDidMount and componentDidUpdate,
-        based on what you will put in the dependencies array.
-      - Try to keep values of input fields in AddComment component in a single object,
-        using a single useState() hook for the entire form.
-
-
-// On the Terminal
-// npm i bootstrap@4.6.1
-// npm i react-bootstrap@1.6.5
+### Terminal Command
+- `npm i bootstrap@4.6.1`;
+- `npm i react-bootstrap@1.6.5`.
 
 
 
